@@ -46,7 +46,7 @@ sudo apt-get update
 
 echo ".....................Installing kubeadm kubelet kubectl"
 
-sudo apt-get install -y kubeadm=1.10.5-00 kubectl=1.10.5-00 kubelet=1.10.5-00
+sudo apt-get install -y kubeadm kubectl kubelet
 
 apt-mark hold kubelet kubeadm kubectl
 
