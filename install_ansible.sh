@@ -57,7 +57,6 @@ if [ ! $(which ansible-playbook) ]; then
     # apt-add-repository ppa:ansible/ansible && \
     # apt-get update && \
     # apt-get install -y ansible
-
     # Install required Python libs and pip
     apt-get install -y  python-pip python-yaml python-jinja2 python-httplib2 python-paramiko python-pkg-resources
     [ -n "$( apt-cache search python-keyczar )" ] && apt-get install -y  python-keyczar
