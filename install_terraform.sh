@@ -12,7 +12,6 @@ set -e
 
 # Uncomment line below to always use 'sudo' to install to /usr/local/bin/
 # sudoInstall=true
-
 scriptname=$(basename "$0")
 scriptbuildnum="1.5.4"
 scriptbuilddate="2020-06-25"
