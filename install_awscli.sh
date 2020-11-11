@@ -3,7 +3,6 @@
 # https://aws.amazon.com/cli/
 # http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html
 ##
-
 # Requires Python 2.6 or higher 
 sudo python get-pip.py 
 
