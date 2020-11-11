@@ -16,11 +16,9 @@ set -e
 #       you downloaded matches the contents of install.sh
 #       located at https://github.com/docker/docker-install
 #       before executing.
-#
 # Git commit from https://github.com/docker/docker-install when
 # the script was uploaded (Should only be modified by upload job):
 SCRIPT_COMMIT_SHA="26ff363bcf3b3f5a00498ac43694bf1c7d9ce16c"
-
 
 # The channel to install from:
 #   * nightly
